@@ -95,7 +95,7 @@ const TREE_UPGS = {
             desc: `Tickspeed affects Neutron Star gain at a reduced rate.`,
             cost: E(10),
             effect() {
-                let x = player.build.tickspeed.amt.add(1).pow(0.25)
+                let x = player.build.tickspeed.amt.add(1).pow(2)
                 return x
             },
             effDesc(x) { return format(x)+"x" },
@@ -176,7 +176,7 @@ const TREE_UPGS = {
             desc: `Mass gain softcap^2-3 starts later based on Supernovas.`,
             cost: E(1e46),
             effect() {
-                let x = player.supernova.times.mul(0.0125).add(1)
+                let x = player.supernova.times.mul(0.1).add(1)
                 return x
             },
             effDesc(x) { return "^"+format(x)+" later" },
