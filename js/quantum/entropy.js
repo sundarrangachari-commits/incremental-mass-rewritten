@@ -88,7 +88,7 @@ const ENTROPY = {
             scale: {s: 10, p: 2},
 
             eff(i) {
-                let b = 3
+                let b = 1000
                 if (hasElement(97)) b++
                 let x = Decimal.pow(b,i)
                 return x.overflow('ee5',0.5)
