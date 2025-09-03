@@ -12,6 +12,10 @@ const ST_NAMES = [
 		["","Me","Du","Tr","Te","Pe","He","Hp","Ot","En"],
 		["","c","Ic","TCn","TeC","PCn","HCn","HpC","OCn","ECn"],
 		["","Hc","DHe","THt","TeH","PHc","HHe","HpH","OHt","EHc"]
+	],[	
+		["","Ki","Mg","Gi","Ter","Pet,","Ex","Zet","Yot","Xen"],
+		
+		["","Dak","Ik","Trak","Tek	
 	]
 ]
 const CONFIRMS = ['rp', 'bh', 'atom', 'sn', 'qu', 'br', 'dark', 'inf']
